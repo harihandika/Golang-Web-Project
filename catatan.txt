@@ -1,2 +1,6 @@
 agar aplikasi berjalan maka rubah menjadi off go111module
 go env -w GO111MODULE=on menjadi go env -w GO111MODULE=off
+
+tambahan = go get "github.com/jinzhu/gorm"
+go get "github.com/jinzhu/gorm/dialects/mysql"
+go get "github.com/gorilla/mux"
